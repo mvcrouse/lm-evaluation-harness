@@ -1,4 +1,7 @@
 env
+env_lm_eval
+results
+.cache/
 *.pyc
 output/
 data/
