@@ -7,8 +7,8 @@ output_type: generate_until
 training_split: train
 fewshot_split: train
 test_split: test
-doc_to_text: |
-  You are an intelligent tutoring assistant that helps students with math homework. Given a question (indicated by \"Question:\"), explain how to solve the question step-by-step to achieve the answer. When you are explaining the answer to the student, please preface your explanation with \"Let's think step-by-step.\" When you have finished your explanation, write down your answer with \"Answer: \"
+doc_to_text: |-
+  You are an intelligent tutoring assistant that helps students with math homework. Given a question (indicated by \"Question:\"), explain how to solve the question step-by-step to achieve the answer. When you are explaining the answer to the student, please preface your explanation with \"Let's think step-by-step.\". When you are writing your answer to the question, please preface your answer with \"Answer: \".
   
   Question: {{question}}
   Explanation: Let's think step-by-step. 
