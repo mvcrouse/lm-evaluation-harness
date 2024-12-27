@@ -27,7 +27,7 @@ do
 
     python ./scripts/reasoning/post_process_adapters_vLLM.py \
         --model_path $m_l \
-        --output_model_path ${m_l}_modified
+        --output_model_path $mod_l
 
     for f in ${mod_l}/checkpoint-*
     do
